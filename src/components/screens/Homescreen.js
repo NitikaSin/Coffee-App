@@ -8,7 +8,7 @@ import {Homenavigation} from "../navigation/Homenavigation";
     <View style={styles.container}>
       <Image style = {styles.homeImage }   source={require("../../../assets/Home_image.png")} />
      
-      <Text> Description</Text>
+      <Text> Description about app</Text>
       <hr />
       <hr />
 
