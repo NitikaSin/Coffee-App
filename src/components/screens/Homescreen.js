@@ -1,9 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Image, Text, View, TextInput, Button } from "react-native";
-import {Homenavigation} from "../navigation/Homenavigation";
 
- function Homescreen() {
+ function Homescreen({navigation}) {
   return (
     <View style={styles.container}>
       <Image style = {styles.homeImage }   source={require("../../../assets/Home_image.png")} />

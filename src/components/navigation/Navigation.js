@@ -8,12 +8,12 @@ import Homescreen from "../screens/Homescreen";
 const Stack = createStackNavigator();
 
 
- function Homenavigation() {
+ function Navigation() {
   return (
     <NavigationContainer>
-    <Stack.Navigator>
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Home" component={Dashboard} />
+    <Stack.Navigator initialRouteName = "Home">
+      <Stack.Screen name="Home" component={Homescreen} />
+      <Stack.Screen name="Dashboard" component={Dashboard} />
 
     </Stack.Navigator>
   </NavigationContainer>
@@ -22,4 +22,4 @@ const Stack = createStackNavigator();
 }
 
 
-export default Homenavigation;
+export default Navigation;
