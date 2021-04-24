@@ -1,10 +1,9 @@
 import React from "react";
-import Homescreen from "./src/components/screens/Homescreen";
+import Navigation from "./src/components/navigation/Navigation";
 
  function App() {
   return (
-    <Homescreen/>
-   
+    <Navigation></Navigation>
   );
 }
 
