@@ -1,6 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Image, Text, View, TextInput, Button } from "react-native";
+import Auth from "../Authentication/Auth";
+
 
  function Homescreen({navigation}) {
   return (
@@ -10,7 +12,7 @@ import { StyleSheet, Image, Text, View, TextInput, Button } from "react-native";
       <Text> Description about app</Text>
       <hr />
       <hr />
-
+{/* 
        <Button
        
         title="Let's Dig Right In!"
@@ -18,7 +20,9 @@ import { StyleSheet, Image, Text, View, TextInput, Button } from "react-native";
         onPress={() => navigation.navigate('Dashboard')}
 
       />
+ */}
 
+<Auth/>
       <StatusBar style="auto" />
       </View>
   );
